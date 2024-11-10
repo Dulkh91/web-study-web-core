@@ -1,0 +1,135 @@
+body{
+    background-color: powderblue;
+    justify-content: center;
+    justify-items: center;
+}
+.container{
+    margin: 30px;
+    display: flex;
+    background-color: rgb(243, 243, 243);
+    width: 1050px;
+    height: 700px;
+}
+.container-text{
+    margin: 40px;
+   
+}
+h2{
+    color: rgb(54, 53, 53);
+    margin-bottom: 0;
+}
+p{
+    color: gray;
+}
+
+.social-image{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+    margin-top: 40px;
+}
+.social-image button{
+    display: flex;
+    color: white;
+    padding-right: 30px;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+.social-image .fb{
+    background-color: rgb(2, 2, 181);
+}
+.social-image .link{
+    background-color: rgb(24, 156, 209);
+}
+.social-image span{
+    margin: 10px;
+   
+}
+.line{
+    display: flex;
+    color: gray;
+    justify-content: center;
+    align-items: center;
+    line-height: 0.1em;
+    font-size: 14px;
+    margin: 40px 90px;
+}
+
+.line::before,
+.line::after{
+    content: "";
+    border-bottom: 1px solid rgba(128, 128, 128, 0.50);
+    flex: 1;
+    margin: 0 10px;
+}
+
+/* Email & Phone number */
+.input-info{
+    display: flex;
+    gap: 20px;
+}
+.input-field {
+    position: relative;
+    padding: 12px 5px 2px;
+    border: 1px solid #ddd;
+    width: 200px;
+}
+.input-field label{
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    font-size: 12px;
+    color: #aaa;
+}
+.input-field input{
+    padding: 6px 0;
+    border: none;
+    outline: none;
+    background-color: rgb(243, 243, 243); ;
+}
+/* Radio box with choosing */
+.radio-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-box .info{
+    color: gray;
+    font-size: 12px;
+}
+/* card */
+.card{
+    margin-top: 30px;
+   background-color: white; 
+   width: 50%;
+   box-shadow: 0 16px 16px hsla(0, 0%, 18%, 0.075);
+}
+.card p{
+    margin: 10px;
+    padding: 10px 0;
+    font-size: 13px;
+    color: gray;
+}
+
+.txt{
+    margin-top: 20px;
+}
+.label-text{
+    color: gray;
+    font-size: 13px;
+
+}
+.label-text a{
+    color: cadetblue;
+}
+
+.btn-ac{
+    margin-top: 40px;
+    background-color: rgb(35, 174, 229);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: none;
+}
